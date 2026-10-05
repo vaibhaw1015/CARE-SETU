@@ -1,0 +1,40 @@
+{
+  "name": "CareSetu - Bridge to Healthcare",
+  "short_name": "CareSetu",
+  "description": "Healthcare and emergency medical platform for India. Buy medicines, book ambulances with live tracking, and get AI health guidance.",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#ffffff",
+  "theme_color": "#0d9488",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Emergency Ambulance",
+      "url": "/emergency",
+      "description": "Book nearest ambulance with live tracking"
+    },
+    {
+      "name": "AI Doctor Chat",
+      "url": "/ai-doctor",
+      "description": "Get AI symptom triage & health advice"
+    },
+    {
+      "name": "Buy Medicines",
+      "url": "/pharmacy",
+      "description": "Order genuine medicines with fast delivery"
+    },
+    {
+      "name": "Nearby Hospitals",
+      "url": "/nearby/hospitals",
+      "description": "Find verified hospitals in Vadodara"
+    }
+  ]
+}
