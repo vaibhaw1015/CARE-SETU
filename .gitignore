@@ -12,6 +12,16 @@ dist
 dist-ssr
 *.local
 
+# ============================================================
+# 🔒 ENVIRONMENT & CREDENTIALS — NEVER COMMIT THESE
+# ============================================================
+.env
+.env.local
+.env.*.local
+.env.development
+.env.production
+.env.staging
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
@@ -23,13 +33,6 @@ dist-ssr
 *.sln
 *.sw?
 
-# Environment variables — NEVER commit real keys!
-.env
-.env.local
-.env.development
-.env.production
-.env.*.local
-
-# Supabase local dev
-.supabase/
-supabase/.temp/
+# OS artifacts
+Thumbs.db
+desktop.ini
